@@ -1,0 +1,472 @@
+[
+  {
+    "id": 1,
+    "kod": "RS001",
+    "nazev": "\u010clensk\u00e9 p\u0159\u00edsp\u011bvky",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.861+02:00",
+    "updated_at": "2017-07-17T19:51:03.861+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/1.json"
+  },
+  {
+    "id": 2,
+    "kod": "RS002",
+    "nazev": "Dary",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.973+02:00",
+    "updated_at": "2017-07-17T19:51:03.973+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/2.json"
+  },
+  {
+    "id": 3,
+    "kod": "RS003",
+    "nazev": "Intern\u00ed p\u0159evody",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.037+02:00",
+    "updated_at": "2017-07-17T19:51:04.037+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/3.json"
+  },
+  {
+    "id": 4,
+    "kod": "RS004",
+    "nazev": "Mzdov\u00e9 v\u00fddaje",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.105+02:00",
+    "updated_at": "2017-07-17T19:51:04.105+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/4.json"
+  },
+  {
+    "id": 5,
+    "kod": "RS005",
+    "nazev": "N\u00e1jem a provoz s\u00eddla strany",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.169+02:00",
+    "updated_at": "2017-07-17T19:51:04.169+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/5.json"
+  },
+  {
+    "id": 6,
+    "kod": "RS006",
+    "nazev": "Odm\u011bny vedouc\u00edch za v\u00fdkon funkce",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.235+02:00",
+    "updated_at": "2017-07-17T19:51:04.235+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/6.json"
+  },
+  {
+    "id": 7,
+    "kod": "RS007",
+    "nazev": "Odv\u00e1d\u011bn\u00e9 koali\u010dn\u00ed pod\u00edly",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.303+02:00",
+    "updated_at": "2017-07-17T19:51:04.303+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/7.json"
+  },
+  {
+    "id": 8,
+    "kod": "RS008",
+    "nazev": "Odveden\u00e9 koali\u010dn\u00ed pod\u00edly",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.379+02:00",
+    "updated_at": "2017-07-17T19:51:04.379+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/8.json"
+  },
+  {
+    "id": 9,
+    "kod": "RS009",
+    "nazev": "Participativn\u00ed rozpo\u010dtov\u00e1n\u00ed",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.441+02:00",
+    "updated_at": "2017-07-17T19:51:04.441+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/9.json"
+  },
+  {
+    "id": 10,
+    "kod": "RS010",
+    "nazev": "P\u0159evod v\u00fdsledku hospoda\u0159en\u00ed",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.516+02:00",
+    "updated_at": "2017-07-17T19:51:04.516+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/10.json"
+  },
+  {
+    "id": 11,
+    "kod": "RS011",
+    "nazev": "P\u0159ijat\u00e9 koali\u010dn\u00ed pod\u00edly",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.582+02:00",
+    "updated_at": "2017-07-17T19:51:04.582+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/11.json"
+  },
+  {
+    "id": 12,
+    "kod": "RS012",
+    "nazev": "P\u0159ijmy z vnitrostranick\u00fdch p\u016fj\u010dek",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.639+02:00",
+    "updated_at": "2017-07-17T19:51:04.639+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/12.json"
+  },
+  {
+    "id": 13,
+    "kod": "RS013",
+    "nazev": "P\u0159\u00edjmy z vnitrostranick\u00fdch p\u016fj\u010dek",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.700+02:00",
+    "updated_at": "2017-07-17T19:51:04.700+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/13.json"
+  },
+  {
+    "id": 14,
+    "kod": "RS014",
+    "nazev": "P\u0159\u00edjmy z vnitrostranick\u00fdch slu\u017eeb",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.763+02:00",
+    "updated_at": "2017-07-17T19:51:04.763+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/14.json"
+  },
+  {
+    "id": 15,
+    "kod": "RS015",
+    "nazev": "P\u0159\u00edsp\u011bvek na mand\u00e1t krajsk\u00e9ho zastupitele",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.821+02:00",
+    "updated_at": "2017-07-17T19:51:04.821+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/15.json"
+  },
+  {
+    "id": 16,
+    "kod": "RS016",
+    "nazev": "P\u0159\u00edsp\u011bvek na mand\u00e1t sen\u00e1tora",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.878+02:00",
+    "updated_at": "2017-07-17T19:51:04.878+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/16.json"
+  },
+  {
+    "id": 17,
+    "kod": "RS017",
+    "nazev": "P\u0159\u00edsp\u011bvek na volebn\u00ed n\u00e1klady",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.936+02:00",
+    "updated_at": "2017-07-17T19:51:04.936+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/17.json"
+  },
+  {
+    "id": 18,
+    "kod": "RS018",
+    "nazev": "Provozn\u00ed v\u00fddaje administrativn\u00edho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:04.986+02:00",
+    "updated_at": "2017-07-17T19:51:04.986+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/18.json"
+  },
+  {
+    "id": 19,
+    "kod": "RS019",
+    "nazev": "Provozn\u00ed v\u00fddaje finan\u010dn\u00edho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.044+02:00",
+    "updated_at": "2017-07-17T19:51:05.044+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/19.json"
+  },
+  {
+    "id": 20,
+    "kod": "RS020",
+    "nazev": "Provozn\u00ed v\u00fddaje kontroln\u00ed komise",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.093+02:00",
+    "updated_at": "2017-07-17T19:51:05.093+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/20.json"
+  },
+  {
+    "id": 21,
+    "kod": "RS021",
+    "nazev": "Provozn\u00ed v\u00fddaje medi\u00e1ln\u00edho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.159+02:00",
+    "updated_at": "2017-07-17T19:51:05.159+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/21.json"
+  },
+  {
+    "id": 22,
+    "kod": "RS022",
+    "nazev": "Provozn\u00ed v\u00fddaje person\u00e1ln\u00edho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.226+02:00",
+    "updated_at": "2017-07-17T19:51:05.226+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/22.json"
+  },
+  {
+    "id": 23,
+    "kod": "RS023",
+    "nazev": "Provozn\u00ed v\u00fddaje p\u0159edsednictva",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.291+02:00",
+    "updated_at": "2017-07-17T19:51:05.291+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/23.json"
+  },
+  {
+    "id": 24,
+    "kod": "RS024",
+    "nazev": "Provozn\u00ed v\u00fddaje republikov\u00e9ho v\u00fdboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.349+02:00",
+    "updated_at": "2017-07-17T19:51:05.349+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/24.json"
+  },
+  {
+    "id": 25,
+    "kod": "RS025",
+    "nazev": "Provozn\u00ed v\u00fddaje rozhod\u010d\u00ed komise",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.418+02:00",
+    "updated_at": "2017-07-17T19:51:05.418+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/25.json"
+  },
+  {
+    "id": 26,
+    "kod": "RS026",
+    "nazev": "Provozn\u00ed v\u00fddaje technick\u00e9ho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.492+02:00",
+    "updated_at": "2017-07-17T19:51:05.492+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/26.json"
+  },
+  {
+    "id": 27,
+    "kod": "RS027",
+    "nazev": "Provozn\u00ed v\u00fddaje zahrani\u010dn\u00edho odboru",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.563+02:00",
+    "updated_at": "2017-07-17T19:51:05.563+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/27.json"
+  },
+  {
+    "id": 28,
+    "kod": "RS028",
+    "nazev": "Rezerva",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.621+02:00",
+    "updated_at": "2017-07-17T19:51:05.621+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/28.json"
+  },
+  {
+    "id": 29,
+    "kod": "RS029",
+    "nazev": "Rezerva p\u0159edsednictva",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.687+02:00",
+    "updated_at": "2017-07-17T19:51:05.687+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/29.json"
+  },
+  {
+    "id": 30,
+    "kod": "RS030",
+    "nazev": "Spl\u00e1tky vnitrostranick\u00fdch p\u016fj\u010dek",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.748+02:00",
+    "updated_at": "2017-07-17T19:51:05.748+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/30.json"
+  },
+  {
+    "id": 31,
+    "kod": "RS031",
+    "nazev": "St\u00e1l\u00fd p\u0159\u00edsp\u011bvek",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.814+02:00",
+    "updated_at": "2017-07-17T19:51:05.814+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/31.json"
+  },
+  {
+    "id": 32,
+    "kod": "RS032",
+    "nazev": "St\u00e1tn\u00ed p\u0159\u00edsp\u011bvek na sn\u011bmovn\u00ed volby",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.877+02:00",
+    "updated_at": "2017-07-17T19:51:05.877+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/32.json"
+  },
+  {
+    "id": 33,
+    "kod": "RS033",
+    "nazev": "Volebn\u00ed kampa\u0148 do sn\u011bmovny",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.934+02:00",
+    "updated_at": "2017-07-17T19:51:05.934+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/33.json"
+  },
+  {
+    "id": 34,
+    "kod": "RS034",
+    "nazev": "V\u00fddaje na \u010dinnost komun\u00e1ln\u00edch zastupitel\u016f",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:05.992+02:00",
+    "updated_at": "2017-07-17T19:51:05.992+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/34.json"
+  },
+  {
+    "id": 35,
+    "kod": "RS035",
+    "nazev": "V\u00fddaje na \u010dinnost krajsk\u00fdch zastupitel\u016f",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.050+02:00",
+    "updated_at": "2017-07-17T19:51:06.050+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/35.json"
+  },
+  {
+    "id": 36,
+    "kod": "RS036",
+    "nazev": "V\u00fddaje na \u010dinnost sen\u00e1tor\u016f",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.108+02:00",
+    "updated_at": "2017-07-17T19:51:06.108+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/36.json"
+  },
+  {
+    "id": 37,
+    "kod": "RS037",
+    "nazev": "V\u00fddaje na pr\u00e1vn\u00ed z\u00e1le\u017eitosti",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.174+02:00",
+    "updated_at": "2017-07-17T19:51:06.174+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/37.json"
+  },
+  {
+    "id": 38,
+    "kod": "RS038",
+    "nazev": "V\u00fddaje na projekty",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.242+02:00",
+    "updated_at": "2017-07-17T19:51:06.242+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/38.json"
+  },
+  {
+    "id": 39,
+    "kod": "RS039",
+    "nazev": "V\u00fddaje na sn\u011bmovn\u00ed volby",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.316+02:00",
+    "updated_at": "2017-07-17T19:51:06.316+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/39.json"
+  },
+  {
+    "id": 40,
+    "kod": "RS040",
+    "nazev": "V\u00fddaje p\u0159edsednictva",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.382+02:00",
+    "updated_at": "2017-07-17T19:51:06.382+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/40.json"
+  },
+  {
+    "id": 41,
+    "kod": "RS041",
+    "nazev": "V\u00fddaje v medi\u00e1ln\u00ed oblasti",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.446+02:00",
+    "updated_at": "2017-07-17T19:51:06.446+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/41.json"
+  },
+  {
+    "id": 42,
+    "kod": "RS042",
+    "nazev": "V\u00fddaje v person\u00e1ln\u00ed oblasti",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.544+02:00",
+    "updated_at": "2017-07-17T19:51:06.544+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/42.json"
+  },
+  {
+    "id": 43,
+    "kod": "RS043",
+    "nazev": "V\u00fddaje v pr\u00e1vn\u00ed oblasti",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.633+02:00",
+    "updated_at": "2017-07-17T19:51:06.633+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/43.json"
+  },
+  {
+    "id": 44,
+    "kod": "RS044",
+    "nazev": "V\u00fddaje v technick\u00e9 oblasti",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.724+02:00",
+    "updated_at": "2017-07-17T19:51:06.724+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/44.json"
+  },
+  {
+    "id": 45,
+    "kod": "RS045",
+    "nazev": "V\u00fdsledek hospoda\u0159en\u00ed",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.815+02:00",
+    "updated_at": "2017-07-17T19:51:06.815+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/45.json"
+  },
+  {
+    "id": 46,
+    "kod": "RS046",
+    "nazev": "\u00daroky z vklad\u016f",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.908+02:00",
+    "updated_at": "2017-07-17T19:51:06.908+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/46.json"
+  },
+  {
+    "id": 47,
+    "kod": "RS047",
+    "nazev": "P\u0159\u00edjmy z Hospoda\u0159en\u00ed",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:06.996+02:00",
+    "updated_at": "2017-07-17T19:51:06.996+02:00",
+    "url": "http://pirati.alvarium.cz/budgetary_compositions/47.json"
+  }
+]

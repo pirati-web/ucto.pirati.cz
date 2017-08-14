@@ -1,0 +1,122 @@
+[
+  {
+    "stredisko_kod": "00",
+    "stredisko_nazev": "Centr\u00e1la",
+    "prijem": "74188.39",
+    "prijem_plan": "21235419.6",
+    "vydej": "2176783.43",
+    "vydej_plan": "12455906.6"
+  },
+  {
+    "stredisko_kod": "01",
+    "stredisko_nazev": "KS Praha",
+    "prijem": "17220.0",
+    "prijem_plan": "3626542.0",
+    "vydej": "119448.43",
+    "vydej_plan": "2036000.0"
+  },
+  {
+    "stredisko_kod": "02",
+    "stredisko_nazev": "KS Karlovarsk\u00fd kraj",
+    "prijem": "3667.5",
+    "prijem_plan": "1127348.0",
+    "vydej": "33519.0",
+    "vydej_plan": "717000.0"
+  },
+  {
+    "stredisko_kod": "03",
+    "stredisko_nazev": "KS Olomouck\u00fd kraj",
+    "prijem": "6988.0",
+    "prijem_plan": "385807.0",
+    "vydej": "7900.6",
+    "vydej_plan": "235000.0"
+  },
+  {
+    "stredisko_kod": "04",
+    "stredisko_nazev": "KS Moravskoslezsk\u00fd kraj",
+    "prijem": "4528.0",
+    "prijem_plan": "718678.0",
+    "vydej": "27698.0",
+    "vydej_plan": "204000.0"
+  },
+  {
+    "stredisko_kod": "05",
+    "stredisko_nazev": "KS Zl\u00ednsk\u00fd kraj",
+    "prijem": "2075.0",
+    "prijem_plan": "282203.0",
+    "vydej": "8639.0",
+    "vydej_plan": "63000.0"
+  },
+  {
+    "stredisko_kod": "06",
+    "stredisko_nazev": "KS Jihomoravsk\u00fd kraj",
+    "prijem": "55437.5",
+    "prijem_plan": "1000433.0",
+    "vydej": "113999.86",
+    "vydej_plan": "418215.0"
+  },
+  {
+    "stredisko_kod": "07",
+    "stredisko_nazev": "KS Vyso\u010dina",
+    "prijem": "4233.0",
+    "prijem_plan": "466374.0",
+    "vydej": "9199.0",
+    "vydej_plan": "210000.0"
+  },
+  {
+    "stredisko_kod": "08",
+    "stredisko_nazev": "KS Pardubick\u00fd kraj",
+    "prijem": "812.5",
+    "prijem_plan": "332669.54",
+    "vydej": "24300.0",
+    "vydej_plan": "105000.0"
+  },
+  {
+    "stredisko_kod": "09",
+    "stredisko_nazev": "KS Kr\u00e1lov\u00e9hradeck\u00fd kraj",
+    "prijem": "825.0",
+    "prijem_plan": "617026.0",
+    "vydej": "8977.0",
+    "vydej_plan": "399366.0"
+  },
+  {
+    "stredisko_kod": "10",
+    "stredisko_nazev": "KS \u00dasteck\u00fd kraj",
+    "prijem": "2419.5",
+    "prijem_plan": "389266.0",
+    "vydej": "1848.0",
+    "vydej_plan": "150000.0"
+  },
+  {
+    "stredisko_kod": "11",
+    "stredisko_nazev": "KS Libereck\u00fd kraj",
+    "prijem": "5867.5",
+    "prijem_plan": "450020.0",
+    "vydej": "0.0",
+    "vydej_plan": "448020.0"
+  },
+  {
+    "stredisko_kod": "12",
+    "stredisko_nazev": "KS Jiho\u010desk\u00fd kraj",
+    "prijem": "6027.58",
+    "prijem_plan": "453180.18",
+    "vydej": "60210.09",
+    "vydej_plan": "453180.18"
+  },
+  {
+    "stredisko_kod": "13",
+    "stredisko_nazev": "KS Plze\u0148sk\u00fd kraj",
+    "prijem": "6326.5",
+    "prijem_plan": "503743.0",
+    "vydej": "6876.0",
+    "vydej_plan": "164000.0"
+  },
+  {
+    "stredisko_kod": "14",
+    "stredisko_nazev": "KS St\u0159edo\u010desk\u00fd kraj",
+    "prijem": "5122.0",
+    "prijem_plan": "1038545.0",
+    "vydej": "4868.2",
+    "vydej_plan": "349000.0"
+  }
+]

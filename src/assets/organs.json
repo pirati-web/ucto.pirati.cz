@@ -1,0 +1,482 @@
+[
+  {
+    "id": 2,
+    "kod": "ORG001",
+    "nazev": "Administrativn\u00ed odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.422+02:00",
+    "updated_at": "2017-07-17T19:51:00.422+02:00",
+    "url": "http://pirati.alvarium.cz/organs/2.json"
+  },
+  {
+    "id": 3,
+    "kod": "ORG003",
+    "nazev": "Klub zastupitel\u016f Praha",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.487+02:00",
+    "updated_at": "2017-07-17T19:51:00.487+02:00",
+    "url": "http://pirati.alvarium.cz/organs/3.json"
+  },
+  {
+    "id": 4,
+    "kod": "ORG004",
+    "nazev": "Kontroln\u00ed komise",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.553+02:00",
+    "updated_at": "2017-07-17T19:51:00.553+02:00",
+    "url": "http://pirati.alvarium.cz/organs/4.json"
+  },
+  {
+    "id": 5,
+    "kod": "ORG005",
+    "nazev": "Krajsk\u00e9 p\u0159edsednictvo Praha",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.611+02:00",
+    "updated_at": "2017-07-17T19:51:00.611+02:00",
+    "url": "http://pirati.alvarium.cz/organs/5.json"
+  },
+  {
+    "id": 6,
+    "kod": "ORG006",
+    "nazev": "Medi\u00e1ln\u00ed odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.678+02:00",
+    "updated_at": "2017-07-17T19:51:00.678+02:00",
+    "url": "http://pirati.alvarium.cz/organs/6.json"
+  },
+  {
+    "id": 7,
+    "kod": "ORG007",
+    "nazev": "Medi\u00e1ln\u00ed odbor Jiho\u010desk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.732+02:00",
+    "updated_at": "2017-07-17T19:51:00.732+02:00",
+    "url": "http://pirati.alvarium.cz/organs/7.json"
+  },
+  {
+    "id": 8,
+    "kod": "ORG008",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo \u010ceskobud\u011bjovicko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.782+02:00",
+    "updated_at": "2017-07-25T17:42:21.430+02:00",
+    "url": "http://pirati.alvarium.cz/organs/8.json"
+  },
+  {
+    "id": 9,
+    "kod": "ORG009",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Chot\u011bbo\u0159",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.831+02:00",
+    "updated_at": "2017-07-25T17:42:21.451+02:00",
+    "url": "http://pirati.alvarium.cz/organs/9.json"
+  },
+  {
+    "id": 10,
+    "kod": "ORG010",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Havl\u00ed\u010dk\u016fv Brod",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.881+02:00",
+    "updated_at": "2017-07-25T17:42:21.471+02:00",
+    "url": "http://pirati.alvarium.cz/organs/10.json"
+  },
+  {
+    "id": 11,
+    "kod": "ORG011",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Jind\u0159ich\u016fv Hradec",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.930+02:00",
+    "updated_at": "2017-07-25T17:42:21.480+02:00",
+    "url": "http://pirati.alvarium.cz/organs/11.json"
+  },
+  {
+    "id": 12,
+    "kod": "ORG012",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Lomnice",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.980+02:00",
+    "updated_at": "2017-07-25T17:42:21.487+02:00",
+    "url": "http://pirati.alvarium.cz/organs/12.json"
+  },
+  {
+    "id": 13,
+    "kod": "ORG013",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo P\u00edsecko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.029+02:00",
+    "updated_at": "2017-07-25T17:42:21.491+02:00",
+    "url": "http://pirati.alvarium.cz/organs/13.json"
+  },
+  {
+    "id": 14,
+    "kod": "ORG014",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Praha 10",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.082+02:00",
+    "updated_at": "2017-07-25T17:42:21.507+02:00",
+    "url": "http://pirati.alvarium.cz/organs/14.json"
+  },
+  {
+    "id": 15,
+    "kod": "ORG015",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Prost\u011bjov",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.153+02:00",
+    "updated_at": "2017-07-25T17:42:21.511+02:00",
+    "url": "http://pirati.alvarium.cz/organs/15.json"
+  },
+  {
+    "id": 16,
+    "kod": "ORG016",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Slov\u00e1cko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.205+02:00",
+    "updated_at": "2017-07-25T17:42:21.515+02:00",
+    "url": "http://pirati.alvarium.cz/organs/16.json"
+  },
+  {
+    "id": 17,
+    "kod": "ORG017",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Strakonicko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.260+02:00",
+    "updated_at": "2017-07-25T17:42:21.540+02:00",
+    "url": "http://pirati.alvarium.cz/organs/17.json"
+  },
+  {
+    "id": 18,
+    "kod": "ORG018",
+    "nazev": "M\u00edstn\u00ed p\u0159edsednictvo Znojmo",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.318+02:00",
+    "updated_at": "2017-07-25T17:42:21.545+02:00",
+    "url": "http://pirati.alvarium.cz/organs/18.json"
+  },
+  {
+    "id": 19,
+    "kod": "ORG019",
+    "nazev": "P\u0159edsednictvo Olomouck\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.368+02:00",
+    "updated_at": "2017-07-25T17:42:21.558+02:00",
+    "url": "http://pirati.alvarium.cz/organs/19.json"
+  },
+  {
+    "id": 20,
+    "kod": "ORG020",
+    "nazev": "Participativn\u00ed rozpo\u010det",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.417+02:00",
+    "updated_at": "2017-07-17T19:51:01.417+02:00",
+    "url": "http://pirati.alvarium.cz/organs/20.json"
+  },
+  {
+    "id": 21,
+    "kod": "ORG021",
+    "nazev": "Person\u00e1ln\u00ed odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.475+02:00",
+    "updated_at": "2017-07-17T19:51:01.475+02:00",
+    "url": "http://pirati.alvarium.cz/organs/21.json"
+  },
+  {
+    "id": 22,
+    "kod": "ORG022",
+    "nazev": "Pr\u00e1vn\u00ed t\u00fdm",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.533+02:00",
+    "updated_at": "2017-07-17T19:51:01.533+02:00",
+    "url": "http://pirati.alvarium.cz/organs/22.json"
+  },
+  {
+    "id": 23,
+    "kod": "ORG023",
+    "nazev": "P\u0159edsednictvo Jiho\u010desk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.590+02:00",
+    "updated_at": "2017-07-25T17:42:21.566+02:00",
+    "url": "http://pirati.alvarium.cz/organs/23.json"
+  },
+  {
+    "id": 24,
+    "kod": "ORG024",
+    "nazev": "P\u0159edsednictvo Jihomoravsk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.665+02:00",
+    "updated_at": "2017-07-17T19:51:01.665+02:00",
+    "url": "http://pirati.alvarium.cz/organs/24.json"
+  },
+  {
+    "id": 25,
+    "kod": "ORG025",
+    "nazev": "P\u0159edsednictvo Karlovarsk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.731+02:00",
+    "updated_at": "2017-07-17T19:51:01.731+02:00",
+    "url": "http://pirati.alvarium.cz/organs/25.json"
+  },
+  {
+    "id": 26,
+    "kod": "ORG026",
+    "nazev": "P\u0159edsednictvo Pardubick\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.797+02:00",
+    "updated_at": "2017-07-25T17:42:21.576+02:00",
+    "url": "http://pirati.alvarium.cz/organs/26.json"
+  },
+  {
+    "id": 27,
+    "kod": "ORG027",
+    "nazev": "P\u0159edsednictvo St\u0159edo\u010desk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.863+02:00",
+    "updated_at": "2017-07-25T17:42:21.581+02:00",
+    "url": "http://pirati.alvarium.cz/organs/27.json"
+  },
+  {
+    "id": 28,
+    "kod": "ORG028",
+    "nazev": "P\u0159edsednictvo Zl\u00ednsk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.929+02:00",
+    "updated_at": "2017-07-25T17:42:21.585+02:00",
+    "url": "http://pirati.alvarium.cz/organs/28.json"
+  },
+  {
+    "id": 29,
+    "kod": "ORG029",
+    "nazev": "P\u0159edsednictvo Kraj Vyso\u010dina",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:01.995+02:00",
+    "updated_at": "2017-07-17T19:51:01.995+02:00",
+    "url": "http://pirati.alvarium.cz/organs/29.json"
+  },
+  {
+    "id": 30,
+    "kod": "ORG030",
+    "nazev": "P\u0159edsednictvo Kr\u00e1lov\u00e9hradeck\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.063+02:00",
+    "updated_at": "2017-07-17T19:51:02.063+02:00",
+    "url": "http://pirati.alvarium.cz/organs/30.json"
+  },
+  {
+    "id": 31,
+    "kod": "ORG031",
+    "nazev": "P\u0159edsednictvo Libereck\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.127+02:00",
+    "updated_at": "2017-07-17T19:51:02.127+02:00",
+    "url": "http://pirati.alvarium.cz/organs/31.json"
+  },
+  {
+    "id": 32,
+    "kod": "ORG032",
+    "nazev": "P\u0159edsednictvo Moravskoslzsk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.193+02:00",
+    "updated_at": "2017-07-17T19:51:02.193+02:00",
+    "url": "http://pirati.alvarium.cz/organs/32.json"
+  },
+  {
+    "id": 33,
+    "kod": "ORG033",
+    "nazev": "P\u0159edsednictvo Plze\u0148sk\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.261+02:00",
+    "updated_at": "2017-07-17T19:51:02.261+02:00",
+    "url": "http://pirati.alvarium.cz/organs/33.json"
+  },
+  {
+    "id": 34,
+    "kod": "ORG034",
+    "nazev": "P\u0159edsednictvo \u00dasteck\u00fd kraj",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.325+02:00",
+    "updated_at": "2017-07-17T19:51:02.325+02:00",
+    "url": "http://pirati.alvarium.cz/organs/34.json"
+  },
+  {
+    "id": 35,
+    "kod": "ORG035",
+    "nazev": "Republikov\u00e9 p\u0159edsednictvo",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.382+02:00",
+    "updated_at": "2017-07-17T19:51:02.382+02:00",
+    "url": "http://pirati.alvarium.cz/organs/35.json"
+  },
+  {
+    "id": 36,
+    "kod": "ORG036",
+    "nazev": "Republikov\u00fd v\u00fdbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.448+02:00",
+    "updated_at": "2017-07-17T19:51:02.448+02:00",
+    "url": "http://pirati.alvarium.cz/organs/36.json"
+  },
+  {
+    "id": 37,
+    "kod": "ORG037",
+    "nazev": "Rozhod\u010d\u00ed komise",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.506+02:00",
+    "updated_at": "2017-07-17T19:51:02.506+02:00",
+    "url": "http://pirati.alvarium.cz/organs/37.json"
+  },
+  {
+    "id": 38,
+    "kod": "ORG038",
+    "nazev": "Technick\u00fd odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.564+02:00",
+    "updated_at": "2017-07-17T19:51:02.564+02:00",
+    "url": "http://pirati.alvarium.cz/organs/38.json"
+  },
+  {
+    "id": 39,
+    "kod": "ORG039",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Karlovarsko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.622+02:00",
+    "updated_at": "2017-07-17T19:51:02.622+02:00",
+    "url": "http://pirati.alvarium.cz/organs/39.json"
+  },
+  {
+    "id": 40,
+    "kod": "ORG040",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Kr\u00e1lov\u00e9hradecko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.679+02:00",
+    "updated_at": "2017-07-25T17:42:21.615+02:00",
+    "url": "http://pirati.alvarium.cz/organs/40.json"
+  },
+  {
+    "id": 41,
+    "kod": "ORG041",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Liberecko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.737+02:00",
+    "updated_at": "2017-07-25T17:42:21.620+02:00",
+    "url": "http://pirati.alvarium.cz/organs/41.json"
+  },
+  {
+    "id": 42,
+    "kod": "ORG042",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Moravskoslezsko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.832+02:00",
+    "updated_at": "2017-07-25T17:42:21.632+02:00",
+    "url": "http://pirati.alvarium.cz/organs/42.json"
+  },
+  {
+    "id": 43,
+    "kod": "ORG043",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Plze\u0148sko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.907+02:00",
+    "updated_at": "2017-07-25T17:42:21.637+02:00",
+    "url": "http://pirati.alvarium.cz/organs/43.json"
+  },
+  {
+    "id": 44,
+    "kod": "ORG044",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Praha",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:02.986+02:00",
+    "updated_at": "2017-07-17T19:51:02.986+02:00",
+    "url": "http://pirati.alvarium.cz/organs/44.json"
+  },
+  {
+    "id": 45,
+    "kod": "ORG045",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b Zl\u00ednsko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.060+02:00",
+    "updated_at": "2017-07-25T17:42:21.643+02:00",
+    "url": "http://pirati.alvarium.cz/organs/45.json"
+  },
+  {
+    "id": 46,
+    "kod": "ORG046",
+    "nazev": "Volebn\u00ed \u0161t\u00e1b",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.137+02:00",
+    "updated_at": "2017-07-25T17:42:21.649+02:00",
+    "url": "http://pirati.alvarium.cz/organs/46.json"
+  },
+  {
+    "id": 47,
+    "kod": "ORG047",
+    "nazev": "Zahrani\u010dn\u00ed odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.209+02:00",
+    "updated_at": "2017-07-17T19:51:03.209+02:00",
+    "url": "http://pirati.alvarium.cz/organs/47.json"
+  },
+  {
+    "id": 48,
+    "kod": "ORG048",
+    "nazev": "Zastupitelsk\u00fd klub Karlovarsko",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:03.285+02:00",
+    "updated_at": "2017-07-17T19:51:03.285+02:00",
+    "url": "http://pirati.alvarium.cz/organs/48.json"
+  },
+  {
+    "id": 1,
+    "kod": "ORG_FO",
+    "nazev": "Finan\u010dn\u00ed odbor",
+    "popis": "",
+    "poznam": "",
+    "created_at": "2017-07-17T19:51:00.325+02:00",
+    "updated_at": "2017-07-17T19:51:00.325+02:00",
+    "url": "http://pirati.alvarium.cz/organs/1.json"
+  }
+]

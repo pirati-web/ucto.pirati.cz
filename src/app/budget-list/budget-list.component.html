@@ -1,0 +1,28 @@
+<h4>{{typ}}</h4>
+<table>
+  <thead>
+    <tr><th>Kód</th>
+      <th>Název</th>
+      <th class="show-for-medium">Skladba</th>
+      <th class="text-right">Plnění</th>
+      <th class="text-right">Limit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of filtredData">
+      <td><a [routerLink]="['/center', centerId, item.kod]">{{item.kod}}</a></td>
+      <td>{{item.nazev}}</td>
+      <td class="show-for-medium">{{item.rozpoctova_skladba}}</td>
+      <td class="text-right">{{item.used | number:"1.1-2"}}</td>
+      <td class="text-right">{{item.limit | number:"1.1-2"}}</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr><th><span class="show-for-medium">Položek: </span>{{filtredData?.length}}</th>
+      <th class="show-for-medium">Suma</th>
+      <th>{{ getPercent() | number:"1.0-1" }} %</th>
+      <th class="text-right">{{sumUsed | number:"1.0-1"}}</th>
+      <th class="text-right">{{sumLimit | number:"1.0-1"}}</th>
+    </tr>
+  </tfoot>
+</table>
