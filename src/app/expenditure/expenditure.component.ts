@@ -5,7 +5,7 @@ import 'rxjs/add/operator/filter';
 import { CenterService, BudgetService, ExpenditureService } from '../ucto.service';
 import { ActivatedRoute } from '@angular/router';
 
-import {BudgetItem, ExpenditureItem } from '../budget.interface';
+import { BudgetItem, ExpenditureItem } from '../budget.interface';
 import { Center } from '../budget.interface';
 
 @Component({
@@ -36,7 +36,7 @@ import { Center } from '../budget.interface';
             <td>{{expenditure.nazev}}</td>
             <td class="text-right">{{expenditure.castka | number:"1.1-2"}}</td>
             <td><a [routerLink]="['/partner', expenditure.ic]">{{expenditure.firma}}</a></td>
-            <td class="text-right"><a href="https://or.justice.cz/ias/ui/rejstrik-$firma?ico={{expenditure.ic}}">{{expenditure.ic | number:"8.0-0"}}</a></td>
+            <td class="text-right"><a href="{{iclink}}{{expenditure.ic}}">{{expenditure.ic}}</a></td>
           </tr>
         </tbody>
         <tfoot>
@@ -54,6 +54,7 @@ import { Center } from '../budget.interface';
   styles: []
 })
 export class ExpenditureComponent implements OnInit {
+  iclink = "https://or.justice.cz/ias/ui/rejstrik-$firma?ico=";
   center: Center;
   budgetItem: Observable<BudgetItem>;
   data: Observable<ExpenditureItem[]>
