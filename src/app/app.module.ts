@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { HttpModule } from '@angular/http';
 
 import { routes } from './app.router';
@@ -33,6 +33,7 @@ import { AboutComponent } from './about/about.component';
     routes
   ],
   providers: [
+    { provide: LOCALE_ID, useValue: "cz" },
     CenterService,
     BudgetService,
     ExpenditureService

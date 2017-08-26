@@ -17,6 +17,10 @@ Data jsou v současnosti přímo v repozitáři ve složce `app/assets` (pro dev
 Build:
 
 ```
+# dev
 ng build --dev --e=dev
-ng build --prod --e=prod
+
+# prod and publish to gh pages
+ng build --prod --e=prod --base-href="/ucto.pirati.cz/"
+ngh
 ```
