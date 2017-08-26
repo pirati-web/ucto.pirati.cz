@@ -74,11 +74,10 @@ export class PartnerListComponent implements OnInit {
 
   sort(col: string) {
     if(col == this.sort_col) {
-      this.sort_col = col;
       col = '-' + col;
-    } else {
-      this.sort_col = col;
     }
+    this.sort_col = col;
+    
     this.grouped.sort(this.dynamicSort(col))
   }
 

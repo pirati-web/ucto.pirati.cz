@@ -101,11 +101,10 @@ export class ExpenditureComponent implements OnInit {
 
   sort(col: string) {
     if(col == this.sort_col) {
-      this.sort_col = col;
       col = '-' + col;
-    } else {
-      this.sort_col = col;
     }
+    this.sort_col = col;
+    
     this.data = this.data.map(items => items.sort(this.dynamicSort(col)));
   }
 }
