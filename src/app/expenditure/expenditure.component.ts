@@ -23,11 +23,11 @@ import { Center } from '../budget.interface';
       <table>
         <thead>
           <tr>
-            <th>Kod</th>
-            <th>Nazev</th>
-            <th class="text-right">Částka</th>
-            <th>Odběratel</th>
-            <th class="text-right">IČ</th>
+            <th (click)="sort('kod')">Kod <i class="fa fa-sort" aria-hidden="true"></i></th>
+            <th (click)="sort('nazev')">Nazev <i class="fa fa-sort" aria-hidden="true"></i></th>
+            <th (click)="sort('castka')" class="text-right">Částka <i class="fa fa-sort" aria-hidden="true"></i></th>
+            <th (click)="sort('firma')">Odběratel <i class="fa fa-sort" aria-hidden="true"></i></th>
+            <th (click)="sort('ic')" class="text-right">IČ <i class="fa fa-sort" aria-hidden="true"></i></th>
           </tr>
         </thead>
         <tbody>
@@ -63,6 +63,7 @@ export class ExpenditureComponent implements OnInit {
   budgetItem: Observable<BudgetItem>;
   data: Observable<ExpenditureItem[]>
   loading: boolean;
+  sort_col: string;
 
   constructor(private budgetService: BudgetService, private centerService: CenterService, private expenditureService: ExpenditureService, private route: ActivatedRoute) { }
 
@@ -84,5 +85,27 @@ export class ExpenditureComponent implements OnInit {
       );
       this.data = this.expenditureService.getFor(item);
     });
+  }
+
+  dynamicSort(property: string) {
+      let sortOrder = 1;
+      if(property[0] === "-") {
+          sortOrder = -1;
+          property = property.substr(1);
+      }
+      return (a,b) => {
+          let result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+          return result * sortOrder;
+      }
+  }
+
+  sort(col: string) {
+    if(col == this.sort_col) {
+      this.sort_col = col;
+      col = '-' + col;
+    } else {
+      this.sort_col = col;
+    }
+    this.data = this.data.map(items => items.sort(this.dynamicSort(col)));
   }
 }

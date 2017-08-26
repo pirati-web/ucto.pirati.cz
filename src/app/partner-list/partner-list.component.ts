@@ -16,9 +16,9 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
     <table>
       <thead>
         <tr>
-          <th (click)="sort('name')">Název</th>
-          <th class="text-right" (click)="sort('ic')" >IČ</th>
-          <th class="text-right" (click)="sort('sum')">Vyplaceno</th>
+          <th (click)="sort('name')">Název partnera <i class="fa fa-sort" aria-hidden="true"></i></th>
+          <th class="text-right" (click)="sort('ic')" >IČ <i class="fa fa-sort" aria-hidden="true"></i></th>
+          <th class="text-right" (click)="sort('sum')">Vyplaceno (Kč) <i class="fa fa-sort" aria-hidden="true"></i></th>
         </tr>
       </thead>
       <tbody>
@@ -45,6 +45,7 @@ export class PartnerListComponent implements OnInit {
   expenditures: Observable<ExpenditureItem[]>;
   grouped: GroupedExpenditures[];
   loading: boolean;
+  sort_col: string;
 
   constructor(private expenditureService: ExpenditureService) { }
 
@@ -59,19 +60,26 @@ export class PartnerListComponent implements OnInit {
     )
   }
 
-  sort(col: string) {
-    if(["ic", 'sum', 'name'].includes(col)) {
-      this.grouped.sort( ((a, b) => {
-        if(a[col] < b[col]) {
-          return -1;
-        } else if (a[col] > b[col]) {
-          return 1;
-        } else {
-          return 0;
-        }
-      }));
+  dynamicSort(property: string) {
+      let sortOrder = 1;
+      if(property[0] === "-") {
+          sortOrder = -1;
+          property = property.substr(1);
+      }
+      return (a,b) => {
+          let result = (a[property] < b[property]) ? -1 : (a[property] > b[property]) ? 1 : 0;
+          return result * sortOrder;
+      }
+  }
 
+  sort(col: string) {
+    if(col == this.sort_col) {
+      this.sort_col = col;
+      col = '-' + col;
+    } else {
+      this.sort_col = col;
     }
+    this.grouped.sort(this.dynamicSort(col))
   }
 
   groupByPartner(data: ExpenditureItem[]): GroupedExpenditures[] {
