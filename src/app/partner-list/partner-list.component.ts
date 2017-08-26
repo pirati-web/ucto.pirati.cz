@@ -16,9 +16,9 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
     <table>
       <thead>
         <tr>
-          <th>Název</th>
-          <th class="text-right">IČ</th>
-          <th class="text-right">Vyplaceno</th>
+          <th (click)="sort('name')">Název</th>
+          <th class="text-right" (click)="sort('ic')" >IČ</th>
+          <th class="text-right" (click)="sort('sum')">Vyplaceno</th>
         </tr>
       </thead>
       <tbody>
@@ -53,8 +53,25 @@ export class PartnerListComponent implements OnInit {
     this.grouped = [];
     this.expenditures = this.expenditureService.getAll()
     this.expenditures.subscribe(
-      items => this.grouped = this.groupByPartner(items)
+      items => {
+        this.grouped = this.groupByPartner(items);
+      }
     )
+  }
+
+  sort(col: string) {
+    if(["ic", 'sum', 'name'].includes(col)) {
+      this.grouped.sort( ((a, b) => {
+        if(a[col] < b[col]) {
+          return -1;
+        } else if (a[col] > b[col]) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }));
+
+    }
   }
 
   groupByPartner(data: ExpenditureItem[]): GroupedExpenditures[] {
