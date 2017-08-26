@@ -9,6 +9,10 @@
     </tr>
   </thead>
   <tbody>
+    <tr *ngIf="loading">
+      <td><i class="fa fa-spinner fa-pulse fa-fw"></i></td>
+      <td colspan="3">Stahují se aktuální data. Prosím vyčkejte.</td>
+    </tr>
     <tr *ngFor="let item of filtredData">
       <td><a [routerLink]="['/center', centerId, item.kod]">{{item.kod}}</a></td>
       <td>{{item.nazev}}</td>

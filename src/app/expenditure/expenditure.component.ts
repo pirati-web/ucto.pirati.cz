@@ -31,6 +31,10 @@ import { Center } from '../budget.interface';
           </tr>
         </thead>
         <tbody>
+          <tr *ngIf="loading">
+            <td><i class="fa fa-spinner fa-pulse fa-fw"></i></td>
+            <td colspan="2">Stahují se aktuální data. Prosím vyčkejte.</td>
+          </tr>
           <tr *ngFor="let expenditure of data | async">
             <td>{{expenditure.kod}}</td>
             <td>{{expenditure.nazev}}</td>
@@ -58,10 +62,12 @@ export class ExpenditureComponent implements OnInit {
   center: Center;
   budgetItem: Observable<BudgetItem>;
   data: Observable<ExpenditureItem[]>
+  loading: boolean;
 
   constructor(private budgetService: BudgetService, private centerService: CenterService, private expenditureService: ExpenditureService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.loading = true;
     this.route.params.subscribe(params => {
       let kod = params['kod'];
       let item = Number.parseInt(params['item']);
@@ -70,7 +76,10 @@ export class ExpenditureComponent implements OnInit {
         err => console.log(err)
       );
       this.budgetService.get(item).subscribe(
-        budgets => this.budgetItem = budgets[0],
+        budgets => {
+          this.budgetItem = budgets[0];
+          this.loading = false;
+        },
         err => console.log(err)
       );
       this.data = this.expenditureService.getFor(item);

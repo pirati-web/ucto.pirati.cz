@@ -31,6 +31,10 @@ import { CenterService } from '../ucto.service';
         </tr>
       </thead>
       <tbody>
+        <tr *ngIf="loading">
+          <td><i class="fa fa-spinner fa-pulse fa-fw"></i></td>
+          <td colspan="6">Stahují se aktuální data. Prosím vyčkejte.</td>
+        </tr>
         <tr *ngFor="let center of centers | async" [class.selected]="center == selectedCenter">
           <td><a [routerLink]="['/center', center.kod]" (click)="selectCenter(center)">{{center.nazev}}</a></td>
           <td class="text-right">{{center.prijem | number:"1.1-2" }}</td>
@@ -63,10 +67,12 @@ export class CenterListComponent implements OnInit {
   sumIncomeReal: number;
   sumOutcome: number;
   sumOutcomeReal: number;
+  loading: boolean;
 
   constructor(private centerService: CenterService) { }
 
   ngOnInit() {
+    this.loading = true;
     this.centers = this.centerService.getAll();
     this.centers.subscribe(
         items => {
@@ -74,7 +80,7 @@ export class CenterListComponent implements OnInit {
           this.sumIncomeReal = items.reduce((a, b) => a + b.prijem, 0);
           this.sumOutcome = items.reduce((a, b) => a + b.vydej_plan, 0);
           this.sumOutcomeReal = items.reduce((a, b) => a + b.vydej, 0);
-
+          this.loading = false;
         }
     );
   }

@@ -23,6 +23,10 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
         <th>Částka</th>
       </thead>
       <tbody>
+        <tr *ngIf="loading">
+          <td><i class="fa fa-spinner fa-pulse fa-fw"></i></td>
+          <td colspan="2">Stahují se aktuální data. Prosím vyčkejte.</td>
+        </tr>
         <tr *ngFor="let expenditure of partner.expenditures">
           <td>{{expenditure.kod}}</td>
           <td>{{expenditure.vystaveni}}</td>
@@ -47,16 +51,21 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
 export class PartnerComponent implements OnInit {
 
   partner: GroupedExpenditures;
+  loading: boolean;
 
   constructor(private expenditureService: ExpenditureService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+    this.loading = true;
     this.partner = new GroupedExpenditures(0, []);
     this.route.params.subscribe(params => {
       let ic = Number.parseInt(params['ic']);
       this.partner = new GroupedExpenditures(ic, []);
       this.expenditureService.getByPartnerIc(ic).subscribe(
-         items => this.partner = new GroupedExpenditures(ic, items)
+         items => {
+           this.partner = new GroupedExpenditures(ic, items);
+           this.loading = false;
+         }
       );
     });
   }

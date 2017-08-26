@@ -22,6 +22,7 @@ export class BudgetListComponent implements OnInit {
   @Input()
   centerId: string;
 
+  loading: boolean;
   sumUsed: number;
   sumLimit: number;
   sumPercent: number;
@@ -30,14 +31,18 @@ export class BudgetListComponent implements OnInit {
     this.filtredData = [];
     this.sumLimit = 0;
     this.sumUsed = 0;
+    this.loading = true;
   }
 
   ngOnInit() {
     this.data.subscribe(
       items => {
-        this.filtredData = items.filter(item => item.typ == this.typ);
+        this.filtredData = items.filter(
+          item => item.typ == this.typ
+        );
         this.sumLimit = this.filtredData.reduce((a, b) => a + b.limit, 0);
         this.sumUsed = this.filtredData.reduce((a, b) => a + b.used, 0);
+        this.loading = false;
       }
     );
   }

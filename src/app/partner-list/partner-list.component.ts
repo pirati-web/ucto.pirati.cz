@@ -22,6 +22,10 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
         </tr>
       </thead>
       <tbody>
+        <tr *ngIf="loading">
+          <td colspan="3"><i class="fa fa-spinner fa-pulse fa-fw"></i>
+          &nbsp; Stahují se aktuální data. Prosím vyčkejte.</td>
+        </tr>
         <tr *ngFor="let g of grouped">
           <td><a [routerLink]="['/partner', g.ic]">{{g.name}}</a></td>
           <td class="text-right"><a href="https://or.justice.cz/ias/ui/rejstrik-$firma?ico={{g.ic}}">{{g.ic}}</a></td>
@@ -40,10 +44,12 @@ import { ExpenditureItem, GroupedExpenditures } from '../budget.interface';
 export class PartnerListComponent implements OnInit {
   expenditures: Observable<ExpenditureItem[]>;
   grouped: GroupedExpenditures[];
+  loading: boolean;
 
   constructor(private expenditureService: ExpenditureService) { }
 
   ngOnInit() {
+    this.loading = true;
     this.grouped = [];
     this.expenditures = this.expenditureService.getAll()
     this.expenditures.subscribe(
@@ -62,6 +68,8 @@ export class PartnerListComponent implements OnInit {
      const result = Array.from(icos).map(x => new GroupedExpenditures(
          x, data.filter(item => item.ic === x)
        ));
+
+     this.loading = false;
 
      return result;
  }
