@@ -1,0 +1,44 @@
+<section *ngIf="center">
+  <nav aria-label="You are here:" role="navigation">
+    <ul class="breadcrumbs">
+      <li><a [routerLink]="['/']">Home</a></li>
+      <li><a routerLink="/center">Centra</a></li>
+      <li *ngIf="center"><a [routerLink]="['/center', center.kod]">{{center.nazev}}</a></li>
+      <li *ngIf="budgetItem">{{budgetItem.nazev}}</li>
+    </ul>
+  </nav>
+  <table>
+    <thead>
+      <tr>
+        <th (click)="sort('kod')">Kod <i class="fa fa-sort" aria-hidden="true"></i></th>
+        <th (click)="sort('nazev')">Nazev <i class="fa fa-sort" aria-hidden="true"></i></th>
+        <th (click)="sort('castka')" class="text-right">Částka <i class="fa fa-sort" aria-hidden="true"></i></th>
+        <th (click)="sort('firma')">Odběratel <i class="fa fa-sort" aria-hidden="true"></i></th>
+        <th (click)="sort('ic')" class="text-right">IČ <i class="fa fa-sort" aria-hidden="true"></i></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="loading">
+        <td><i class="fa fa-spinner fa-pulse fa-fw"></i></td>
+        <td colspan="2">Stahují se aktuální data. Prosím vyčkejte.</td>
+      </tr>
+      <tr *ngFor="let expenditure of data | async">
+        <td>{{expenditure.kod}}</td>
+        <td>{{expenditure.nazev}}</td>
+        <td class="text-right">{{expenditure.castka | number:"1.1-2"}}</td>
+        <td><a [routerLink]="['/partner', expenditure.ic]">{{expenditure.firma}}</a></td>
+        <td class="text-right"><a href="{{iclink}}{{expenditure.ic}}">{{expenditure.ic}}</a></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr *ngIf="budgetItem">
+        <th>
+          <!--<span class="show-for-medium">Položek: </span>{{(data | async)?.length}}--></th>
+        <th>Suma</th>
+        <th class="text-right">{{budgetItem.used | number:"1.1-2"}}</th>
+        <th>/ {{budgetItem.limit | number:"1.1-2"}} ({{budgetItem.usedPercent | number:"1.1-1"}} %)</th>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+</section>

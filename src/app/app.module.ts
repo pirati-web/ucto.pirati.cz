@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { routes } from './app.router';
@@ -14,6 +15,7 @@ import { PartnerListComponent } from './partner-list/partner-list.component';
 import { PartnerComponent } from './partner/partner.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -25,10 +27,12 @@ import { AboutComponent } from './about/about.component';
     PartnerListComponent,
     PartnerComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpModule,
     routes
   ],

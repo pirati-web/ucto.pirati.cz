@@ -10,6 +10,7 @@ import { BudgetComponent } from './budget/budget.component';
 import { PartnerListComponent } from './partner-list/partner-list.component';
 import { PartnerComponent } from './partner/partner.component';
 import { AboutComponent } from './about/about.component';
+import { SearchComponent } from './search/search.component';
 
 export const router: Routes = [
     { path: '', component: HomeComponent },
@@ -18,7 +19,8 @@ export const router: Routes = [
     { path: 'center/:kod/:item', component: ExpenditureComponent },
     { path: 'partner', component: PartnerListComponent },
     { path: 'partner/:ic', component: PartnerComponent },
-    { path: 'about', component: AboutComponent }
+    { path: 'about', component: AboutComponent },
+    { path: 'search', component: SearchComponent }
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);

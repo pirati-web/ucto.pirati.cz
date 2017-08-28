@@ -119,30 +119,32 @@ export class ExpenditureService extends MetaService {
       .catch(this.handleError);
   }
 
-    getAll(): Observable<ExpenditureItem[]> {
-      return this.data;
-    }
+  getAll(): Observable<ExpenditureItem[]> {
+    return this.data;
+  }
 
-    getFor(kod: number) {
-      return this.data.map(items => items.filter(item => item.budgetKod == kod));
-    }
+  getFor(kod: number): Observable<ExpenditureItem>  {
+    return this.data.map(items => items.filter(item => item.budgetKod == kod));
+  }
 
-    getByCode(kod: number) {
-      return this.data.map(items => items.filter(item => item.budgetKod == kod));
-    }
+  getByCode(kod: number): Observable<ExpenditureItem> {
+    return this.data.map(items => items.filter(item => item.budgetKod == kod));
+  }
 
-    getByPartnerIc(ic: number): Observable<ExpenditureItem> {
-      return this.data.map(items => items.filter(item => item.ic == ic));
-    }
+  getByPartnerIc(ic: number): Observable<ExpenditureItem> {
+    return this.data.map(items => items.filter(item => item.ic == ic));
+  }
 
-    private extractExpenditureItem(obj): ExpenditureItem {
+  private extractExpenditureItem(obj): ExpenditureItem {
       return <ExpenditureItem>({
         kod: obj.doklad_kod,
         ic: Number.parseInt(obj.doklad_ic),
         firma: obj.doklad_nazfirmy,
+        firma_ic: obj.doklad_ic,
         budgetKod: Number.parseInt(obj.kod),
         budgetNazev: obj.nazev,
         stredisko: obj.stredisko_kod,
+        stredisko_nazev: obj.stredisko_nazev,
         nazev: obj.polozka_nazev,
         castka: Number.parseInt(obj.polozka_castka),
         vystaveni: new Date(obj.doklad_datvyst)

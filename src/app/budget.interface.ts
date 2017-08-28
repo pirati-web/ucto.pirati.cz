@@ -58,7 +58,9 @@ export interface ExpenditureItem {
   kod: string;
   ic: number;
   firma: string;
+  stredisko: string;
   budgetKod: number;
+  budgetNazev: string;
   nazev: string;
   castka: number;
   vystaveni: Date;
