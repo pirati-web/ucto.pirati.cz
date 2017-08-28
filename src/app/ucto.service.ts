@@ -123,15 +123,15 @@ export class ExpenditureService extends MetaService {
     return this.data;
   }
 
-  getFor(kod: number): Observable<ExpenditureItem>  {
+  getFor(kod: number): Observable<ExpenditureItem[]>  {
     return this.data.map(items => items.filter(item => item.budgetKod == kod));
   }
 
-  getByCode(kod: number): Observable<ExpenditureItem> {
+  getByCode(kod: number): Observable<ExpenditureItem[]> {
     return this.data.map(items => items.filter(item => item.budgetKod == kod));
   }
 
-  getByPartnerIc(ic: number): Observable<ExpenditureItem> {
+  getByPartnerIc(ic: number): Observable<ExpenditureItem[]> {
     return this.data.map(items => items.filter(item => item.ic == ic));
   }
 
