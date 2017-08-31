@@ -11,7 +11,9 @@ import { Observable } from 'rxjs';
 export class SearchComponent implements OnInit {
 
   expenditures_all: ExpenditureItem[] = [];
+  expenditures_all_ready = false;
   budgets_all: BudgetItem[] = [];
+  budgets_all_ready = false;
   partner_all: GroupedExpenditures[] = [];
   res_expens: ExpenditureItem[] = [];       // results expenditures
   res_budgets: BudgetItem[] = [];           // results budgets items
@@ -30,14 +32,16 @@ export class SearchComponent implements OnInit {
   ngOnInit() {
     this.budgetService.getAll().subscribe(
       items => this.budgets_all = items,
-      err => console.log(err)
+      err => console.log(err),
+      () => this.budgets_all_ready = true
     )
     this.expenditureService.getAll().subscribe(
       items => {
         this.expenditures_all = items;
         this.partner_all = this.groupByPartner(items);
       },
-      err => console.log(err)
+      err => console.log(err),
+      () => this.expenditures_all_ready = true
     )
   }
 

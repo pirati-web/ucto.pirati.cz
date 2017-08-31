@@ -5,10 +5,14 @@
   <div class="large-4 cell">
     <input type="search" name="search" placeholder="Zadejte výraz" [(ngModel)]="query" />
   </div>
+  <div class="large-4 cell">
+    <span *ngIf="query && query.length < 3">Výraz musí mít alespoň 3 znaky</span>
+  </div>
 </div>
 <div class="grid-x">
   <div class="large-auto cell" *ngIf="res_budgets.length > 0">
     <h4>Rozpočtové položky</h4>
+    <span *ngIf="!budgets_all_ready">Data ještě nejsou stažena.</span>
     <ul *ngFor="let bud of res_budgets">
       <li><a [routerLink]="['/center', bud.stredisko_kod, bud.kod]">
         {{bud.stredisko_nazev}}/ <strong>{{bud.nazev}}</strong> ({{bud.kod}}): {{bud.limit | number:"1.1-2"}} Kč
@@ -17,6 +21,7 @@
   </div>
   <div class="large-5 cell" *ngIf="res_expens.length > 0">
     <h4>Výdaje</h4>
+    <span *ngIf="!expenditures_all_ready">Data ještě nejsou stažena.</span>
     <ul *ngFor="let exp of res_expens">
       <li><a [routerLink]="['/center', exp.stredisko, exp.budgetKod]">{{exp.nazev}}: {{exp.castka | number:"1.1-2"}} Kč</a></li>
     </ul>
@@ -24,6 +29,7 @@
 
   <div class="large-3 cell" *ngIf="res_partner.length > 0">
     <h4>Dodavatelé</h4>
+    <span *ngIf="!expenditures_all_ready">Data ještě nejsou stažena.</span>
     <ul *ngFor="let dod of res_partner">
       <li><a [routerLink]="['/partner', dod.ic]">{{dod.name}}: {{dod.sum | number:"1.1-2"}} Kč</a></li>
     </ul>
